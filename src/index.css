@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-items:hover{
+    background-color: #07488e;
+}
+.header-items:hover .Link{
+    color: white;
+}
+.roboto{
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.text-color{
+    color: var(--primary--);
+}
+.btn{
+    background-color: var(--primary--);
+}
+:root{
+    --primary--:#07488e;
+}
+
+.text-style{
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.opacity-50{
+    opacity: .7;
+}
+.header-contact-details{
+    background: linear-gradient(to right, #fc466b,blue);
+}
+.header-contact-details .right-side .icons ul li{
+     display:inline-block;
+     height: 30px;
+     width: 30px;
+     border: 1px solid #ccc;
+     border-radius:50%;
+}
+.header-contact-details .right-side .icons ul li:hover{
+      background-color: black;
+      border: 1px solid #0e0e0e;
+}
+.header-contact-details .right-side .icons ul li div{
+    display: grid;
+    place-items: center;
+    height: 30px;
+    width: 30px;
+}
+.home-seo-section .seo-image-home{
+    width: 370px;
+    height: 370px;
+    border-radius: 75%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: relative;
+}
+.home-seo-section .seo-image-home img{
+    width: 100%;
+    height: 100%;
+    border-radius: 75%;
+}
+.home-seo-section .seo-image-home img::before{
+    content: "";
+    width: 1000px;
+    height: 500px;
+    background: #000;
+    position: absolute;
+    top: 0;
+}
+/* our-comprehensive */
+.our-comprehensive .image{
+     width: 80px;
+     height: 80px;
+     background-color: var(--primary--);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 75%;
+
+}
+.our-comprehensive .our-comp-service .items-compre{
+    position: relative;
+    overflow: hidden;
+    background:#cccccc83;
+    border-radius:15px;
+}
+/* .our-comprehensive .our-comp-service .items-compre.tax{
+     background: linear-gradient(to bottom,#ccc,#1369f4);
+} */
+.our-comprehensive .our-comp-service .items-compre::after{
+    content: "";
+    position: absolute;
+    bottom:-10px;
+    left: 0;
+    right: 0;
+    padding: 3px;
+    background:linear-gradient(to right, #fc466b,blue);
+}
+.our-comprehensive .our-comp-service .items-compre:hover .image{
+     transform:translateX(-80px);
+     transition: all 1s ease-in-out;
+     
+     /* background-color: rgba(255, 255, 255, 0.498); */
+}
+.our-comprehensive .our-comp-service .items-compre:hover::after{
+       bottom: 0;
+       transition: all 1s ease-in-out;
+}
+/* your-trusted-growth */
+.your-trusted-growth{
+    background: linear-gradient(to right,#00000097,#00000092),url(./assets/home/1-PM-banner2.jpg) no-repeat center;
+    background-size: cover;
+}
+/* why-choose-us */
+.why-choose-us .why-choose-us-box .icons{
+      width: 60px;
+      height: 60px;
+      background-color: var(--primary--);
+      color: white;
+      border-radius: 10px;
+}
+/* top-graphics-service */
+.top-graphics-service .top-design-service .icons{
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary--);
+}
+.top-graphics-service .top-graphics-align{
+     height: 300px;
+     overflow-y: hidden;
+}
+.top-graphics-service .top-design-service{
+    transition: all 1s ease-in-out;
+}
+.top-graphics-service .top-design-service:hover{
+     transform: translateY(-295px);
+}
+/* about-banner */
+.about-banner{
+    height: 60vh;
+    background:linear-gradient(to right,#00000097,#00000092),url(./assets/about/about-banner.jpg);
+}
+/* .grow-section{
+    background:linear-gradient(to right,#000000c7,#000000cb),url(./assets/about/green_cloud.jpg);
+} */
+ /* our-story */
+ .our-story .number-speak{
+    background: url(./assets/about/AdobeStock_291217289-copy.jpg);
+ }
+ /* web-design-banner */
+ .web-design-banner{
+     height: 70vh;
+     background:linear-gradient(to right,#00000097,#00000092),url(./assets/web-design/web-design-banner.png) center;
+     background-size:cover;
+ }
+ /* why-us-section */
+ .why-us-section .why-us-items:hover{
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+ }
+ /* our-type-of-service */
+ .our-type-of-service ul li{
+     padding: 5px 0;
+ }
+ /* mobile-banner */
+ .mobile-banner{
+     height: 70vh;
+     background:linear-gradient(to right,#00000097,#00000092),url(./assets/mobile/mobile-banner.jpg) no-repeat;
+     background-size: cover;
+ }
+ /*your-mobile-app */
+ .your-mobile-app{
+    background:  #e2edfe ;
+ }
+ .how-to-develop ul{
+     border-top-right-radius:40px;
+     color: white;
+ }
+ /* technologies-use */
+ .technologies-use .technologies-items:hover img{
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+ }
+ /* ecommerce-banner */
+ .ecommerce-banner{
+    height: 70vh;
+    background:linear-gradient(to right,#00000097,#00000092),url(./assets/ecommerce/e-commerce-banner.jpg) no-repeat;
+    background-size: cover;
+ }
