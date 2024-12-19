@@ -79,7 +79,7 @@ const Header = () => {
         <NavbarContent>
           <NavItem>
             <Link
-              to={"/"}
+              to={"/ranon"}
               className="px-3 py-2"
               onClick={() => setActive("home")}
               style={{
@@ -137,9 +137,38 @@ const Header = () => {
                   </Link>
                 </div>
               </NavItem>
-              {/* <NavItem>
-        <a href="/">Service 3</a>
-      </NavItem> */}
+              <NavItem>
+                <div className="py-1 header-items">
+                  <Link
+                    to={"/ecommerce"}
+                    className="Link "
+                    onClick={() => setActive("ecommerce")}
+                    style={{
+                      background: active == "ecommerce" ? "#07488e" : "",
+                      color: active == "ecommerce" ? "white" : "",
+                      fontSize: "12px",
+                    }}
+                  >
+                    Ecommerce Service
+                  </Link>
+                </div>
+              </NavItem>
+              <NavItem>
+                <div className="py-1 header-items">
+                  <Link
+                    to={"/seo-engineer"}
+                    className="Link "
+                    onClick={() => setActive("seo-engineer")}
+                    style={{
+                      background: active == "seo-engineer" ? "#07488e" : "",
+                      color: active == "seo-engineer" ? "white" : "",
+                      fontSize: "12px",
+                    }}
+                  >
+                     Seo-Engineer
+                  </Link>
+                </div>
+              </NavItem>
             </DropDown>
           </div>
           <NavItem>

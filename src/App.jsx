@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import WebDesign from './components/WebDesign';
 import MobileDesign from './components/MobileDesign';
 import Ecommerce from './components/Ecommerce';
+import SeoEng from './components/SeoEng';
 function App() {
 
 
@@ -19,6 +20,7 @@ function App() {
                <Route path='/web-design'  element={<WebDesign/>}/>
                <Route path='/mobile-design'  element={<MobileDesign/>}/>
                <Route path='/ecommerce'  element={<Ecommerce/>}/>
+               <Route path='/seo-engineer'  element={<SeoEng/>}/>
           </Routes>
     </div>
   )

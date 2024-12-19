@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bg-to-bg{
+    background-color: #e2edfe;
+}
 .header-items:hover{
     background-color: #07488e;
 }
@@ -191,4 +194,8 @@
     height: 70vh;
     background:linear-gradient(to right,#00000097,#00000092),url(./assets/ecommerce/e-commerce-banner.jpg) no-repeat;
     background-size: cover;
+ }
+ /* seo-banner */
+ .seo-banner{
+    background: linear-gradient(to left,#4361ee,#390099);
  }
