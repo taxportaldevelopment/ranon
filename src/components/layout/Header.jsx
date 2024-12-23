@@ -15,11 +15,16 @@ import { FaXTwitter } from "react-icons/fa6";
 import { TiSocialFacebook } from "react-icons/ti";
 import { FaInstagram } from "react-icons/fa";
 import { useState } from "react";
+// image
+import image1 from "../../assets/hoem-page/christmas-left-design.png";
 const Header = () => {
   const [active, setActive] = useState("home");
 
   return (
     <div className="sticky-top">
+             <div className="celebration-home-top" style={{position:"fixed",top:"-50",left:'-10px',zIndex:"99"}}>
+             <img src={image1} className="celebta" height={200} alt=""/>
+       </div>
       <div className="header-contact-details p-1 text-white">
         <div className="container d-flex flex-wrap justify-content-between align-items-center">
           <div className="left-side">
@@ -73,7 +78,7 @@ const Header = () => {
       >
         <NavbarBrand>
           <a href="/" style={{ fontSize: "30px", fontWeight: "700" }}>
-            LOGO
+            RANON
           </a>
         </NavbarBrand>
         <NavbarContent>
@@ -169,10 +174,33 @@ const Header = () => {
                   </Link>
                 </div>
               </NavItem>
+              <NavItem>
+                <div className="py-1 header-items">
+                  <Link
+                    to={"/taxportal"}
+                    className="Link "
+                    onClick={() => setActive("taxportal")}
+                    style={{
+                      background: active == "taxportal" ? "#07488e" : "",
+                      color: active == "taxportal" ? "white" : "",
+                      fontSize: "12px",
+                    }}
+                  >
+                     taxportal
+                  </Link>
+                </div>
+              </NavItem>
             </DropDown>
           </div>
           <NavItem>
-            <Link to={"/contact"} className="px-3 py-2">
+            <Link to={"/contact"} className="px-3 py-2"
+                onClick={() => setActive("contact")}
+                  style={{
+                    background: active == "contact" ? "#07488e" : "",
+                    color: active == "contact" ? "white" : "",
+                    fontSize: "12px",
+                  }}
+            >
               Contact
             </Link>
           </NavItem>

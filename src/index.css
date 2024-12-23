@@ -7,6 +7,9 @@
 .bg-to-bg{
     background-color: #e2edfe;
 }
+.bg-color{
+    background-color: #07488e;
+}
 .header-items:hover{
     background-color: #07488e;
 }
@@ -199,3 +202,39 @@
  .seo-banner{
     background: linear-gradient(to left,#4361ee,#390099);
  }
+ /* taxportal-section */
+ .taxportal-section ul{
+     font-size: 14px;
+ }
+ /* contact-banner */
+ .contact-banner{
+    height: 70vh;
+    background: url(./assets/contact.jpg);
+    background-size: cover;
+ }
+ /* contact-banner */
+.contact-our .form-group .input-contact,select{
+      width: 100%;
+      margin: 1% auto;
+      height: 40px;
+      padding-left: 10px;
+ }
+ .contact-our .form-group  textarea{
+       width: 100%;
+       margin: 1% auto;
+       height: 100px;
+       padding: 10px;
+ }
+ .contact-our .form-group .para{
+    font-size: 12px;
+ }
+ @media screen  and (max-width:600px){
+    .celebta{
+       height: 100px;
+    }
+    .contact-banner{
+        /* background: url(./assets/contact.jpg);  */
+        background-position-x:77%;
+    }
+
+}

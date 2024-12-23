@@ -5,6 +5,11 @@ import image1 from "../assets/ecommerce/seo-analytics-team-amico.png";
 import image2 from "../assets/seo-image.jpg";
 import image3 from "../assets/SEO-analytics-team-bro.png";
 import imagegif from "../assets/seo-gif-file.gif";
+import seoTraffic from "../assets/keyword-Research.gif"
+import icons1 from "../assets/seo-icons/icons-1.png";
+import icons2 from "../assets/seo-icons/icons-2.png";
+import icons3 from "../assets/seo-icons/icons-3.png";
+import icons4 from "../assets/seo-icons/icons-4.png";
 import { NavLink } from 'react-router-dom';
 const SeoEng = () => {
   return (
@@ -64,7 +69,7 @@ const SeoEng = () => {
          <div className='bg-to-bg'>
               <div className="container">
                 <h2 className='text-center py-2'>Best SEO Company in Chennai</h2>
-                 <p className='p-3 text-center'>We will turn your one buck into ten bucks through our unique SEO Services in Chennai for highly qualified organic traffic to your website. We are mainly focused on ROI than higher traffic. Without conversion and ROI, there is no use in getting empty organic traffic. Our Webnox SEO Company in Chennai makes unique SEO strategies that are completely Google first page results-oriented. Our proven SEO techniques will work for your business and will challenge your competitors.</p>
+                 <p className='p-3 text-center'>We will turn your one buck into ten bucks through our unique SEO Services in Chennai for highly qualified organic traffic to your website. We are mainly focused on ROI than higher traffic. Without conversion and ROI, there is no use in getting empty organic traffic. Our Ranon SEO Company in Chennai makes unique SEO strategies that are completely Google first page results-oriented. Our proven SEO techniques will work for your business and will challenge your competitors.</p>
               </div>
 
          </div>
@@ -79,7 +84,7 @@ const SeoEng = () => {
                                 completely. We spy on your competitor backlinks, ranking keywords,
                                 technologies used, and much more.</p>
                                 <p className='py-2'>You know there are plenty of SEO service providers out there. 
-                                But as a leading SEO company in Coimbatore, we are passionate about this stuff. 
+                                But as a leading SEO company in Chennai, we are passionate about this stuff. 
                                 So we design our SEO strategies and plans, to suit small and medium business 
                                 owners as well as e-commerce websites. Believe us, SEO is a powerful tool to 
                                 generate quality leads for a long time.</p>
@@ -116,6 +121,92 @@ const SeoEng = () => {
                                </div>
                          </div>
                     </div> 
+            </div>
+            {/* seo service process */}
+            <div className="seo-service-process bg-color text-white">
+                   <div className="container">
+                        <h3 className='py-3'>Our On Page And Off-Page SEO Service Process.
+                        What Makes Us One Of The Best And Top Seo Services Company In Chennai?</h3>
+                        <hr />
+                        <p>Ranon is the best place to get professional SEO services in Chennai. Our targeted and goal focused SEO campaigns help increase website traffic and boost sales. We guarantee results beyond expectations and predictions. As a leading SEO Company in Chennai, India. We know how to optimize your site for local customers or national customers. As one of the premium SEO companies in Chennai, we use a unique blend of the latest SEO techniques to ensure your business gets the highest ranking on search engines.</p>
+                         <h4 className='py-3 text-primary'>We are focused on making things work for you and your business!</h4>
+                       <p>Webnox leverages the power of SEO methods to make award-winning SEO campaigns. You decide all the ideas you want to try – Webnox tests them all, promoting your services through our best SEO concepts, and combining them into winning SEO strategies towards better sales.</p>
+                       <div className="row p-3">
+                            <div className="col-md-12 col-lg-3">
+                                 <div className="p-2">
+                                      <div className="icons d-flex justify-content-center align-items-center">
+                                          <img src={icons1} height={100} alt="" />
+                                      </div>
+                                      <div className="content">
+                                           <h5 className='py-2 text-center'>GET CLIENT’S GOAL</h5>
+                                           <div className='d-flex justify-content-center align-items-center'>
+                                               <p className='bg-success px-4 py-1 rounded text-white'>Step 1</p>
+                                           </div>
+                                      </div>
+                                 </div>
+                            </div>
+                            <div className="col-md-12 col-lg-3">
+                                 <div className="p-2">
+                                      <div className="icons d-flex justify-content-center align-items-center">
+                                          <img src={icons2} height={100} alt="" />
+                                      </div>
+                                      <div className="content">
+                                           <h5 className='py-2 text-center'>REALIZE CHALLENGES</h5>
+                                           <div className='d-flex justify-content-center align-items-center'>
+                                               <p className='bg-success px-4 py-1 rounded text-white'>Step 2</p>
+                                           </div>
+                                      </div>
+                                 </div>
+                            </div>
+                            <div className="col-md-12 col-lg-3">
+                                 <div className="p-2">
+                                      <div className="icons d-flex justify-content-center align-items-center">
+                                          <img src={icons3} height={100} alt="" />
+                                      </div>
+                                      <div className="content">
+                                           <h5 className='py-2 text-center'>FIND SOLUTION</h5>
+                                           <div className='d-flex justify-content-center align-items-center'>
+                                               <p className='bg-success px-4 py-1 rounded text-white'>Step 3</p>
+                                           </div>
+                                      </div>
+                                 </div>
+                            </div>
+                            <div className="col-md-12 col-lg-3">
+                                 <div className="p-2">
+                                      <div className="icons d-flex justify-content-center align-items-center">
+                                          <img src={icons4} height={100} alt="" />
+                                      </div>
+                                      <div className="content">
+                                           <h5 className='py-2 text-center'>FINAL RESULT</h5>
+                                           <div className='d-flex justify-content-center align-items-center'>
+                                               <p className='bg-success px-4 py-1 rounded text-white'>Step 4</p>
+                                           </div>
+                                      </div>
+                                 </div>
+                            </div>
+                       </div>
+                       <h4 className='text-center py-3'>Our Wide Range of SEO Services in Chennai</h4>
+                       <p className='py-2'>SEO is a general technique and it can be applied to any business website, from small to large enterprises, to diversified industries such as Hospitals, Engineering, non-profit organizations, other product, and services. You can choose from the below SEO plans based on your business.</p>
+                         <div className="row">
+                                <div className="col-md-12 col-lg-6">
+                                      <div className='p-3'>
+                                           <h4 className='py-3'>Local SEO Services To Dominate Your City</h4>
+                                           <p>Local search engine optimization involves optimizing your 
+                                             website for local customers, based on location keywords. (ex: 
+                                             interior designers in Chennai). Our smartest local SEO 
+                                             experts can beat your competitors even if they are large brands. 
+                                             It includes creating a “google my business page”, high authority 
+                                             local link building, competitor analysis, optimizing your website 
+                                             contents, and title tags.</p>
+                                      </div>
+                                </div>
+                                <div className="col-md-12 col-lg-6">
+                                     <div className="p-4">
+                                          <img src={seoTraffic} className='w-100' alt="" />
+                                     </div>
+                                </div>
+                         </div>
+                   </div>
             </div>
     </div>
   )
