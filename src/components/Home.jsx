@@ -78,7 +78,7 @@ const Home = () => {
         </h3>
         <div className="container">
           <div className="row p-2">
-            <div className="col-md-12 col-lg-3 our-comp-service">
+            <div className="col-md-12 col-lg-3 our-comp-service mt-5">
               <div className="p-2 shadow items-compre">
                 <div className="d-flex justify-content-center align-items-center">
                   <div className="image">
@@ -101,7 +101,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-12 col-lg-3 our-comp-service">
+            <div className="col-md-12 col-lg-3 our-comp-service mt-5">
               <div className="p-2 shadow items-compre">
                 <div className="d-flex justify-content-center align-items-center">
                   <div className="image">
@@ -125,7 +125,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-12 col-lg-3 our-comp-service">
+            <div className="col-md-12 col-lg-3 our-comp-service mt-5">
               <div className="p-2 shadow items-compre">
                 <div className="d-flex justify-content-center align-items-center">
                   <div className="image">
@@ -148,7 +148,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-12 col-lg-3 our-comp-service">
+            <div className="col-md-12 col-lg-3 our-comp-service mt-5">
               <div className="p-2 shadow items-compre tax">
                 <div className="d-flex justify-content-center align-items-center">
                   <div className="image">

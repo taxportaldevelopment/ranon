@@ -20,7 +20,7 @@ const Contact = () => {
                        <div className='py-2'>
                            <h5 className='py-2'>Have any Questions ?</h5>
                            <p>We are Here To Help</p>
-                            <button className='px-4 rounded text-white bg-success py-2'>MESSAGE US ON WHATSAPP <FaWhatsapp/></button>
+                             <a href="whatsapp://send?text=Hello World!&phone=+91 944669333"><button className='px-4 rounded text-white bg-success py-2'>MESSAGE US ON WHATSAPP <FaWhatsapp/></button></a>
                             <p className='py-4'><FaPhoneAlt className='h4' /> 91 9841001789</p>
                             <p>For Business Related Queries:</p>
                             <a href="tel:+9944669333 " className='text-white'>+91 9944669333 | Tel: 9841001775</a>

@@ -16,6 +16,11 @@
 .header-items:hover .Link{
     color: white;
 }
+.sticky-top-section{
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
 .roboto{
     font-family: "Roboto", serif;
     font-weight: 100;
@@ -39,7 +44,7 @@
     opacity: .7;
 }
 .header-contact-details{
-    background: linear-gradient(to right, #fc466b,blue);
+    background: linear-gradient(to left, #0cce29ac,blue);
 }
 .header-contact-details .right-side .icons ul li{
      display:inline-block;
@@ -228,13 +233,29 @@
  .contact-our .form-group .para{
     font-size: 12px;
  }
+ @media screen  and (max-width:850px){
+   .responsive-nav-bar{
+    display: none;
+}
+.header-contact-details .left-side ul li{
+    display: block !important;
+    font-size: 10px;
+}
+ }
+ @media screen  and (max-width:800px){
+    .sticky-top-section{
+        position: static;
+   }
+ }
  @media screen  and (max-width:600px){
     .celebta{
        height: 100px;
     }
     .contact-banner{
-        /* background: url(./assets/contact.jpg);  */
         background-position-x:77%;
     }
-
+    .home-seo-section .seo-image-home{
+        width: 300px;
+        height: 300px;
+    }
 }

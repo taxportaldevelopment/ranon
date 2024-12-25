@@ -21,10 +21,10 @@ const Header = () => {
   const [active, setActive] = useState("home");
 
   return (
-    <div className="sticky-top">
-             <div className="celebration-home-top" style={{position:"fixed",top:"-50",left:'-10px',zIndex:"99"}}>
+    <div className="sticky-top-section">
+             {/* <div className="celebration-home-top" style={{position:"fixed",top:"-50",left:'-10px',zIndex:"99"}}>
              <img src={image1} className="celebta" height={200} alt=""/>
-       </div>
+       </div> */}
       <div className="header-contact-details p-1 text-white">
         <div className="container d-flex flex-wrap justify-content-between align-items-center">
           <div className="left-side">
@@ -69,6 +69,7 @@ const Header = () => {
         </div>
       </div>
       {/* navbar */}
+      <div className="responsive-nav-bar">
       <Navbar
         style={{
           backgroundColor: "white",
@@ -206,6 +207,8 @@ const Header = () => {
           </NavItem>
         </NavbarContent>
       </Navbar>
+          
+      </div>
     </div>
   );
 };
