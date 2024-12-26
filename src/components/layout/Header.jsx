@@ -115,7 +115,7 @@ const Header = () => {
                 <div className="py-1 header-items">
                   <Link
                     to={"/web-design"}
-                    className="Link "
+                    className="Link px-1"
                     onClick={() => setActive("web-design")}
                     style={{
                       background: active == "web-design" ? "#07488e" : "",
@@ -131,7 +131,7 @@ const Header = () => {
                 <div className="py-1 header-items">
                   <Link
                     to={"/mobile-design"}
-                    className="Link "
+                    className="Link px-1"
                     onClick={() => setActive("mobile-design")}
                     style={{
                       background: active == "mobile-design" ? "#07488e" : "",
@@ -147,7 +147,7 @@ const Header = () => {
                 <div className="py-1 header-items">
                   <Link
                     to={"/ecommerce"}
-                    className="Link "
+                    className="Link px-1"
                     onClick={() => setActive("ecommerce")}
                     style={{
                       background: active == "ecommerce" ? "#07488e" : "",
@@ -163,7 +163,7 @@ const Header = () => {
                 <div className="py-1 header-items">
                   <Link
                     to={"/seo-engineer"}
-                    className="Link "
+                    className="Link px-1"
                     onClick={() => setActive("seo-engineer")}
                     style={{
                       background: active == "seo-engineer" ? "#07488e" : "",
@@ -179,7 +179,7 @@ const Header = () => {
                 <div className="py-1 header-items">
                   <Link
                     to={"/taxportal"}
-                    className="Link "
+                    className="Link px-1"
                     onClick={() => setActive("taxportal")}
                     style={{
                       background: active == "taxportal" ? "#07488e" : "",

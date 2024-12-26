@@ -1,7 +1,15 @@
 import {NavLink} from 'react-router-dom';
 // images
 import businessGrow from "../assets/about/Business mission-rafiki.png";
+import { useEffect } from 'react';
 const About = () => {
+
+     useEffect(()=>{
+          function scrollTop(){
+              window.scrollTo(0,0)
+          }
+          scrollTop();
+       },[])
   return (
     <div>
          <div className="about-banner d-flex justify-content-center align-items-center ">

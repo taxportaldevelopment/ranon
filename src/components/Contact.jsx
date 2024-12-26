@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 
 // icons
 import { FaWhatsapp } from "react-icons/fa";
@@ -10,6 +10,12 @@ import { FaEye } from "react-icons/fa";
 import { BsGraphUp } from "react-icons/bs";
 import { ImEarth } from "react-icons/im";
 const Contact = () => {
+      useEffect(()=>{
+            function scrollTop(){
+                window.scrollTo(0,0)
+            }
+            scrollTop();
+         },[])
   return (
     <div className='contact-our'>
         <div className="contact-banner"></div>

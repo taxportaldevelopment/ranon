@@ -16,8 +16,15 @@ import language2 from "../assets/mobile/language-2.png";
 import language3 from "../assets/mobile/language-3.png";
 import language4 from "../assets/mobile/language-4.png";
 import language5 from "../assets/mobile/language-5.png";
+import { useEffect } from "react";
 
 const MobileDesign = () => {
+  useEffect(()=>{
+    function scrollTop(){
+        window.scrollTo(0,0)
+    }
+    scrollTop();
+ },[])
   return (
     <div>
       <div className="mobile-banner">

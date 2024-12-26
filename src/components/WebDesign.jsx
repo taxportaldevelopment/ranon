@@ -13,8 +13,15 @@ import iocns2 from "../assets/web-design/icons/icons-2.png";
 import iocns3 from "../assets/web-design/icons/icons-3.png";
 import iocns4 from "../assets/web-design/icons/icons-4.png";
 import laptopuseImage from "../assets/web-design/laptop-use-img.jpg"
+import { useEffect } from "react";
 
 const WebDesign = () => {
+      useEffect(()=>{
+            function scrollTop(){
+                window.scrollTo(0,0)
+            }
+            scrollTop();
+         },[])
   return (
     <div>
         <div className="web-design-banner d-flex justify-content-center align-items-center">

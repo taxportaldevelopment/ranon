@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 
 // icons
 import image1 from "../assets/ecommerce/seo-analytics-team-amico.png";
@@ -12,6 +12,12 @@ import icons3 from "../assets/seo-icons/icons-3.png";
 import icons4 from "../assets/seo-icons/icons-4.png";
 import { NavLink } from 'react-router-dom';
 const SeoEng = () => {
+     useEffect(()=>{
+          function scrollTop(){
+              window.scrollTo(0,0)
+          }
+          scrollTop();
+       },[])
   return (
     <div>
          <div className="seo-banner py-5 container-fluid">

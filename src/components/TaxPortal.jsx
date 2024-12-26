@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 // image
 import image1 from "../assets/tax-portal/Tax-amico.png";
@@ -7,6 +7,12 @@ import image2 from "../assets/tax-portal/office-business.jpg"
 import { FaRegHandPointRight } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 const TaxPortal = () => {
+    useEffect(()=>{
+        function scrollTop(){
+            window.scrollTo(0,0)
+        }
+        scrollTop();
+     },[])
   return (
     <div className='taxportal-section'>
                   <div className="seo-banner py-5 container-fluid">

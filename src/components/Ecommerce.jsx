@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 // image
 import image1 from "../assets/ecommerce/Catalogue-amico.png";
@@ -9,6 +9,12 @@ import image4 from "../assets/ecommerce/Development-cuate.png";
 // iocns 
 import { FaArrowAltCircleRight } from "react-icons/fa";
 const Ecommerce = () => {
+  useEffect(()=>{
+    function scrollTop(){
+        window.scrollTo(0,0)
+    }
+    scrollTop();
+ },[])
   return (
     <div>
         <div className="ecommerce-banner d-flex justify-content-center align-items-center">

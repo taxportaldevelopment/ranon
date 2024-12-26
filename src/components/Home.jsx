@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Carousel from "./propssection/Carousel";
 // icons
 import { HiOutlineSpeakerphone } from "react-icons/hi";
@@ -27,6 +27,14 @@ import brochure from "../assets/home/hoem-brochure.jpg"
 import letterhead from "../assets/home/letter-head.jpg"
 import brandname from "../assets/home/visual-identity.jpg"
 const Home = () => {
+
+    useEffect(()=>{
+       function scrollTop(){
+           window.scrollTo(0,0)
+       }
+       scrollTop();
+    },[])
+
   return (
     <div>
       {/* carousel */}
